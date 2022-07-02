@@ -17,11 +17,8 @@
 		<div id="wrapper" class="fade-in">
 			<!-- Intro -->
 			<div id="intro">
-				<h1>
-					This is<br />
-					Adam Yang
-				</h1>
-				<p>A showcase of my projects and my abilities.</p>
+				<h1>This is Adam.<br /></h1>
+				<p>I'm an enthusiastic tech learner</p>
 				<ul class="actions">
 					<li>
 						<a
@@ -35,7 +32,7 @@
 
 			<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="logo">Indolencor</a>
+				<a href="index.html" class="logo">Adam</a>
 			</header>
 
 			<!-- Nav -->
@@ -45,7 +42,7 @@
 					<li>
 						<a href="#skills-section" class="scrolly">skills</a>
 					</li>
-					<li><a href="elements.html">projects</a></li>
+					<li><a href="#projects-section" class="scrolly">projects</a></li>
 					<li><a href="elements.html">mylife</a></li>
 					<li><a href="generic.html">resume</a></li>
 				</ul>
@@ -78,10 +75,9 @@
 				<!-- Featured Post -->
 				<article class="post featured">
 					<header class="major">
-						<span class="date">August 8, 2003</span>
 						<h2>
 							<a href="#"
-								>Class Adam()<br />
+								>Class Adam<br />
 								{</a
 							>
 						</h2>
@@ -99,109 +95,123 @@
 						><img src="images/pic01.jpg" alt=""
 					/></a>
 					<ul class="actions special">
-						<li><a href="#" class="button large">Check it out</a></li>
+						<li><a href="#" class="button large">See My Projects</a></li>
 					</ul>
 				</article>
 
 				<!-- skills -->
-				<section class="container" id="skills-section">
+				<section id="skills-section" class="skills-container">
+					<header class="major">
+						<h2><a href="#">Skills</a></h2>
+					</header>
+					<section id="skills">
+						<section class="box features">
+							<div class="features-row">
+								<section
+									style="display: flex; flex-direction: column"
+									class="skills"
+								>
+									<div
+										class="button show1"
+										onclick="displayFront()"
+										onmouseover="displayFront()"
+										onmouseout="stopDisplayFront()"
+									>
+										test1
+									</div>
+									<div
+										class="button"
+										onclick="displayBack()"
+										onmouseover="displayBack()"
+										onmouseout="stopDisplayBack()"
+									>
+										test2
+									</div>
+									<div
+										class="button"
+										onclick="displayData()"
+										onmouseover="displayData()"
+										onmouseout="stopDisplayData()"
+									>
+										test3
+									</div>
+									<div
+										class="button"
+										onclick="displayGeneral()"
+										onmouseover="displayGeneral()"
+										onmouseout="stopDisplayGeneral()"
+									>
+										test4
+									</div>
+								</section>
+								<section class="skills">
+									<div class="skill" id="front">
+										<h2>Front End</h2>
+										<p>
+											<strong>JavaScript, HTML, CSS, WXML, WXSS</strong> <br />
+										</p>
+									</div>
+									<div class="skill" id="back">
+										<h2>Server & Database</h2>
+										<p><strong>Node.js, Express.js, MySQL</strong> <br /></p>
+									</div>
+									<div class="skill" id="data">
+										<h2>Data Mining & Prediction</h2>
+										<p>
+											<strong>Pandas, Matplotlib, Tableau</strong> <br />
+											<strong>Lightgbm, XGboost, Scikit-learn </strong> <br />
+										</p>
+									</div>
+
+									<div class="skill" id="general">
+										<h2>General</h2>
+										<p>
+											<strong>C++, JAVA, Python</strong> <br />
+											<strong>Solidity</strong> <br />
+										</p>
+									</div>
+								</section>
+							</div>
+						</section>
+					</section>
+				</section>
+
+				<!-- Posts -->
+				<section id="projects-section">
+					<h2>
+						Project Adam::get_Project()
+						<br />
+						{
+					</h2>
+
 					<section class="box special features">
 						<div class="features-row">
 							<section>
-								<h3>Wweb & Mobile App</h3>
+								<h3><a href="#">2022</a></h3>
 								<p>
-									Use
-									<strong>JavaScript, HTML and CSS</strong>
-									to develop online operating systems, websites, and mobile
-									applications
-									<strong>(wxml, wxss)</strong>. Currently learning Android &
-									Apple application development.
+									<strong>JavaScript, HTML and CSS</strong> <br />
+									Develop online operating systems, websites, and mobile
+									applications <strong>(wxml, wxss)</strong>. Currently learning
+									IOS application development.
 								</p>
 							</section>
 							<section>
 								<!-- <span class="icon solid major fa-chart-area accent3"></span> -->
-								<h3>Server & Database</h3>
-								<p>
-									Independently write APIs using
-									<strong>Node.js, Express.js</strong>, create and manage
-									<strong>MySQL databases</strong> for personal independent
-									full-stack projects.
-								</p>
+								<h3><a href="#">2021</a></h3>
 							</section>
 						</div>
 						<div class="features-row">
 							<section>
 								<!-- <span class="icon solid major fa-cloud accent4"></span> -->
-								<h3>Data Mining & Prediction</h3>
-								<p>
-									Complete data cleaning and feature engineering using
-									<strong>Pandas or MySQL Queries</strong>. Visualize data using
-									<strong>Matplotlib or Tableau </strong> to catch insight.
-									Experience of feeding machine learner
-									<strong>Lightgbm, XGboost, Scikit-learn </strong> and tuning
-									hyperparameter to do data prediction.
-								</p>
+								<h3><a href="#">2020</a></h3>
 							</section>
 							<section>
 								<!-- <span class="icon solid major fa-lock accent5"></span> -->
-								<h3>General</h3>
-								<p>
-									Experiences in object-oriented programming using
-									<strong>C++ and JAVA</strong>. <br />Can write and deploy
-									smart contracts using <strong>Solidity</strong> to interact
-									with blockchain. Currently doing research on carbon-tokens.
-								</p>
+								<h3><a href="#">2019</a></h3>
 							</section>
 						</div>
 					</section>
-				</section>
-
-				<!-- Posts -->
-				<section class="posts">
-					<article>
-						<header>
-							<span class="date">April 24, 2017</span>
-							<h2>
-								<a href="#"
-									>Project 1<br />
-									TrojanEat</a
-								>
-							</h2>
-						</header>
-						<a href="#" class="image fit"
-							><img src="images/pic02.jpg" alt=""
-						/></a>
-						<p>
-							Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-							primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-							mattis sagittis magna etiam.
-						</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">Full Story</a></li>
-						</ul>
-					</article>
-					<article>
-						<header>
-							<span class="date">April 24, 2017</span>
-							<h2>
-								<a href="#"
-									>Project 2<br />
-									没想好叫啥</a
-								>
-							</h2>
-						</header>
-						<a href="#" class="image fit"
-							><img src="images/pic02.jpg" alt=""
-						/></a>
-						<p>
-							Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-							primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-							mattis sagittis magna etiam.
-						</p>
-						<ul class="actions special">
-							<li><a href="#" class="button">Full Story</a></li>
-						</ul>
-					</article>
+					<h2>}</h2>
 				</section>
 
 				<!-- Footer -->
@@ -271,5 +281,6 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/skill.js"></script>
 	</body>
 </html>
